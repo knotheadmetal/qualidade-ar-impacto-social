@@ -1,0 +1,33 @@
+# Ignorar diretórios de dados
+data/raw/
+data/processed/
+
+# Ignorar arquivos de ambiente
+.env
+
+# Ignorar logs do Airflow
+logs/
+
+# Ignorar diretórios de cache e ambientes virtuais
+__pycache__/
+.venv/
+virtualenv/
+venv/
+
+# Ignorar arquivos específicos do sistema operacional
+.DS_Store
+thumbs.db
+
+# Ignorar arquivos de configuração local do Airflow (se existirem)
+airflow.cfg
+webserver_config.py
+
+# Ignorar arquivos de dados do Power BI (se existirem)
+*.pbix
+*.pbit
+
+# Ignorar arquivos de Docker
+*.log
+*.tmp
+
+
