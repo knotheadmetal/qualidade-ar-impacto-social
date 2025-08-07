@@ -198,11 +198,11 @@ Após a ingestão e transformação dos dados, a próxima etapa é visualizá-lo
 
 1.  **Abra o Power BI Desktop**: Inicie o aplicativo Power BI Desktop em sua máquina.
 
-2.  **Obtenha Dados**: Na tela inicial ou na guia 'Página Inicial', clique em 'Obter Dados'.
+2.  **Obtenha Dados**: Na tela inicial ou na guia \'Página Inicial\', clique em \'Obter Dados\'.
 
-3.  **Selecione a Fonte de Dados**: Escolha 'Texto/CSV' e navegue até o diretório `data/processed` do seu projeto. Selecione o arquivo CSV mais recente gerado pelo script de transformação (ex: `air_quality_processed_YYYYMMDDHHMMSS.csv`).
+3.  **Selecione a Fonte de Dados**: Escolha \'Texto/CSV\' e navegue até o diretório `data/processed` do seu projeto. Selecione o arquivo CSV mais recente gerado pelo script de transformação (ex: `air_quality_processed_YYYYMMDDHHMMSS.csv`).
 
-4.  **Carregue os Dados**: O Power BI exibirá uma prévia dos dados. Clique em 'Carregar' para importar os dados para o modelo de dados do Power BI.
+4.  **Carregue os Dados**: O Power BI exibirá uma prévia dos dados. Clique em \'Carregar\' para importar os dados para o modelo de dados do Power BI.
 
 ### Criando Visualizações e Dashboards
 
@@ -219,9 +219,6 @@ Com os dados carregados, você pode começar a criar visualizações e dashboard
 Após criar seu relatório e dashboard, você pode publicá-lo no serviço do Power BI para compartilhar com outras pessoas. Isso exigirá uma conta do Power BI.
 
 Esta seção do projeto demonstra sua capacidade de não apenas processar dados, mas também de apresentá-los de forma clara e impactante, o que é crucial para qualquer projeto de dados.
-
-
-
 
 ## 9. Containerização com Docker
 
@@ -280,12 +277,9 @@ CMD ["python", "src/ingestao/ingest_data.py"]
 
 *   **Portabilidade**: O aplicativo funciona da mesma forma em qualquer ambiente que tenha Docker.
 *   **Isolamento**: As dependências do projeto são isoladas do sistema host, evitando conflitos.
-*   **Reproducibilidade**: Garante que outros desenvolvedores ou sistemas possam configurar e executar o projeto exatamente como pretendido.
+*   **Reproduzibilidade**: Garante que outros desenvolvedores ou sistemas possam configurar e executar o projeto exatamente como pretendido.
 
 Esta etapa finaliza a parte de infraestrutura do projeto, tornando-o robusto e fácil de implantar.
-
-
-
 
 ## 10. Entrega do Projeto
 
