@@ -2,7 +2,7 @@
 
 Este projeto demonstra um pipeline completo de dados, desde a ingestão via API até a transformação, orquestração com Apache Airflow, controle de versão com Git, e visualização com Power BI. O foco principal é a análise de dados de qualidade do ar, com potencial para insights sobre impacto social e ambiental.
 
-## 1. Visão Geral do Projeto
+## 1. Visão Geral do Projeto 
 
 O objetivo deste projeto é coletar, processar e analisar dados de qualidade do ar de diversas cidades ao redor do mundo. A qualidade do ar é um fator crítico para a saúde pública e o meio ambiente, e a análise desses dados pode revelar tendências, identificar áreas de preocupação e informar políticas públicas. Este projeto serve como um exemplo prático de um pipeline de dados de ponta a ponta, ideal para portfólio, utilizando tecnologias modernas de dados.
 
