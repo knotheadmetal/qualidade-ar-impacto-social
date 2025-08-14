@@ -5,7 +5,7 @@ data/processed/
 # Ignorar arquivos de ambiente
 .env
 
-# Ignorar logs do Airflow
+# Ignorar logs do Airflow 
 logs/
 
 # Ignorar diretórios de cache e ambientes virtuais
